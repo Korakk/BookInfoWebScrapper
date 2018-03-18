@@ -25,9 +25,10 @@ class BookClient(object):
 
         # obtain html in which we are interested
         soup = bs4.BeautifulSoup(html, "lxml")
-        title_information = soup.find_all("div", "dotd-title")
+
 
         # Obtaining the title
+        title_information = soup.find_all("div", "dotd-title")
         for title_info in title_information:
             book_header = title_info.find("h2")
             book_title = book_header.text
