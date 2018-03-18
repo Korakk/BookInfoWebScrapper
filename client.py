@@ -27,11 +27,13 @@ class BookClient(object):
         soup = bs4.BeautifulSoup(html, "lxml")
         title_information = soup.find_all("div", "dotd-title")
 
+        # Obtaining the title
         for title_info in title_information:
             book_header = title_info.find("h2")
             book_title = book_header.text
             print ("Book Title:\n" + book_title.strip() + "\n")
 
+        # Obtaining the summary
         summary_information = soup.find_all("div", "dotd-main-book-summary float-left")
         for summary in summary_information:
             summary_info = summary.find("div", "")
