@@ -1,5 +1,5 @@
-# BookInfoWebScrapper
-This repository holds the WebScarpping of this web: 
+# BookInfoWebScraper
+This repository holds the WebScraping of this web: 
 https://www.packtpub.com/packt/offers/free-learning/
 
 The purpose of this client is to obtain the title and 
