@@ -6,7 +6,7 @@ The purpose of this client is to obtain the title and
 the summary of the book that is offered at the previously 
 mentioned URL.
 
-#Core Aspects: 
+#Core Aspects: #OS Alert
    - O.S. used: `Ubuntu 16.04`
    - Python version: Python 2 (Version: 2.7)
 
